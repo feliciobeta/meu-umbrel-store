@@ -1,0 +1,9 @@
+manifestVersion: 1
+id: felicio-nginx
+name: Meu Nginx
+version: "1.0.0"
+tagline: Servidor web para testes
+description: >
+  Este é meu primeiro app no Umbrel usando Nginx.
+category: utilities
+port: 80
