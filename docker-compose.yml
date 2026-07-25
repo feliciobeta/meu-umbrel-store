@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: felicio-meu-app_web_1
+      APP_PORT: 3000
+
+  web:
+    image: nginx:alpine
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}:/usr/share/nginx/html
+    ports:
+      - "3000:80"
