@@ -1,0 +1,9 @@
+manifestVersion: 1
+id: felicio-meu-app
+name: Meu Primeiro App
+version: "1.0.0"
+tagline: Um app incrível hospedado no meu servidor
+description: >
+  Este é meu primeiro app personalizado no Umbrel.
+category: utilities
+port: 3000
